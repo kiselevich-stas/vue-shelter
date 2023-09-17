@@ -1,0 +1,47 @@
+.notOnly {
+    background: linear-gradient(to right, #5B483A 0%, #262425 100%);
+    color : var(--color-light-xl)
+}
+.notOnly-container {
+    display: flex;
+    gap: 30px;
+}
+.notOnly__content {
+    margin-top: 163px;
+    max-width: 460px;
+}
+.notOnly__title {
+    font-size: 44px;
+    line-height: 130%;
+    margin: 0;
+    font-weight: 400;
+    width: 80%;
+    margin-bottom: 42px;
+}
+.notOnly__descr {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    width: 94%;
+    margin-bottom: 42px;
+    width: 100%;
+}
+.notOnly__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary);
+}
+.notOnly__btn:hover {
+    background-color: var(--color-primary-light);
+  }
+.notOnly__img {
+    background: url(@/assets/img/start-screen-puppy.png);
+    width: 698px;
+    height: 728px;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: 100%;
+}

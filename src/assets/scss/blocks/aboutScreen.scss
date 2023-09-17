@@ -1,0 +1,34 @@
+.about {
+    padding-bottom: 100px;
+    padding-top: 80px;
+    
+}
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px
+}
+
+.about__content {
+    width: 430px;
+}
+.about__title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    margin-bottom: 25px;
+}
+
+.about__descr-1, .about__descr-2{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+}
+.about__descr-1 {
+    margin-bottom: 25px;
+}

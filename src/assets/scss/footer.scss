@@ -1,0 +1,46 @@
+.footer {
+    background: url(@/assets/img/footer-gradient-background.jpg) no-repeat;
+    background-position: center ;
+    color: var(--color-light-xl)
+}
+.footer-container {
+    display: flex;
+    gap: 158px;
+}
+.footer__contacts, .footer__locations {
+    display: flex;
+    flex-direction: column;
+    margin-top: 56px;
+}
+.footer__contacts-title, .footer__locations-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+}
+.footer__img {
+    margin-top: 40px;
+    
+}
+.mail-img {
+    margin-right: 20px;
+}
+.mail-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: var(--color-primary)
+}
+.footer__contacts-phone, .footer__contacts-mail , .footer__locations-phone, .footer__locations-mail{
+    display: flex;
+    align-items: center;
+}
+.footer__contacts-mail, .footer__contacts-title {
+    margin-bottom: 40px;
+}
+.footer__locations-title , .footer__locations-mail {
+    margin-bottom: 35px;
+}

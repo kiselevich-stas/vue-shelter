@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    src:
+        url(@/assets/fonts/arial.ttf) format('truetype'),
+        url(@/assets/fonts/Arial.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: Georgia;
+    font-weight: normal;
+    font-style: italic;
+    src:
+        url(@/assets/fonts/georgia.ttf) format('truetype'),
+        url(@/assets/fonts/Georgia.woff2) format('woff2');
+}

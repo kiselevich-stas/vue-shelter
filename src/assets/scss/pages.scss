@@ -1,0 +1,45 @@
+.innerLayout{
+    .header {
+        z-index: 1000;
+        min-height: 60px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        color: #000000;
+        width: 100%;
+        background: none;
+        background-color: var(--color-light-xl);
+    }
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+    .header__logo .header__title {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 0.06em;
+        color: #000000;
+    }
+    .header__logo .nav__link:hover{
+        h5{
+            color: #000000;
+        }
+    }
+    .header__logo .header__subtitle {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+        letter-spacing: 0.1em;
+        margin-top: 7px;
+    }
+    .header{
+        box-shadow: 0 -10px 31px 3px #dedede;
+    }
+    .burger-container .header__subtitle{
+        color: #cdcdcd;
+    }
+}
