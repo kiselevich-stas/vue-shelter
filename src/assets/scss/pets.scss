@@ -82,6 +82,9 @@
 .pets__btn:hover {
     background-color: var(--color-primary-light);
 }
+.pets__btn:hover .nav__link{
+    color: inherit;
+}
 
 .btn-next {
     background-repeat: no-repeat;
