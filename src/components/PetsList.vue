@@ -13,7 +13,7 @@
             <ul class="list-reset pagination-ul">
                 <li><button class="btn-reset pagination-btn pagination-first" @click="goToFirstPage"
                         :disabled="currentPage === 1 || isPostsLoading">&lt;&lt;</button></li>
-                <li><button class="is-active pagination-btn pagination-prev" @click="prevPage"
+                <li><button class="btn-reset is-active pagination-btn pagination-prev" @click="prevPage"
                         :disabled="currentPage === 1 || isPostsLoading">&lt;</button></li>
                 <li><span class="btn-reset pagination-btn pagination__page">{{ currentPage }}</span></li>
                 <li><button class="btn-reset pagination-btn pagination-next" @click="nextPage"
